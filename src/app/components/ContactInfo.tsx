@@ -46,26 +46,6 @@ export default function ContactInfo() {
       position: 'relative',
       overflow: 'hidden'
     }}>
-      {/* Decorative circles */}
-      <div style={{
-        position: 'absolute',
-        top: '-50px',
-        right: '-50px',
-        width: '200px',
-        height: '200px',
-        background: 'rgba(243, 156, 18, 0.1)',
-        borderRadius: '50%'
-      }} />
-      <div style={{
-        position: 'absolute',
-        bottom: '-30px',
-        left: '-30px',
-        width: '150px',
-        height: '150px',
-        background: 'rgba(52, 152, 219, 0.1)',
-        borderRadius: '50%'
-      }} />
-
       <div style={{ position: 'relative', zIndex: 1 }}>
         <div style={{
           display: 'inline-block',

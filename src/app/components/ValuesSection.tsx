@@ -106,7 +106,7 @@ export default function ValuesSection() {
 
         <div style={{ 
           display: 'grid', 
-          gridTemplateColumns: 'repeat(4, 1fr)', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', 
           gap: '2rem' 
         }}>
           {values.map((value, index) => {
